@@ -81,5 +81,6 @@ points++;
 }
 function endgame()
 {
-  
+ ball.vilocityX=0
+  vilocityY=0
 }
