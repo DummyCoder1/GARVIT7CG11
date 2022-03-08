@@ -65,7 +65,7 @@ function draw() {
   ball.bounceOff(edgeL);
   ball.bounceOff(edgeR);
   ball.bounceOff(edgeT);
-  ball.bounceOff(edgeB);
+  ball.bounceOff(edgeB,endgame);
   ball.bounceOff(paddle);
 
   ball.bounceOff(bricks,brickHit);
@@ -81,6 +81,6 @@ points++;
 }
 function endgame()
 {
- ball.vilocityX=0
-  vilocityY=0
+ ball.velocityX=0
+ ball.velocityY=0
 }
