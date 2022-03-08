@@ -83,4 +83,5 @@ function endgame()
 {
  ball.velocityX=0
  ball.velocityY=0
+ paddle.remove();
 }
